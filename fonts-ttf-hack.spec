@@ -27,3 +27,4 @@ A typeface designed for source code.
 mkdir -p %{buildroot}%{_datadir}/fonts/TTF/hack
 install -m 644 ttf/*.ttf %{buildroot}%{_datadir}/fonts/TTF/hack
 cp * %{buildroot}%{_datadir}/fonts/TTF/hack
+
