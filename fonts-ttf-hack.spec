@@ -23,5 +23,5 @@ A typeface designed for source code.
 
 %install
 mkdir -p %{buildroot}%{_datadir}/fonts/TTF/hack
-cp * %{buildroot}%{_datadir}/fonts/TTF/hack*.ttf
+cp * %{buildroot}%{_datadir}/fonts/TTF/hack/*.ttf
 
