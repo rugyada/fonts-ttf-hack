@@ -12,16 +12,16 @@ BuildArch:	noarch
 A typeface designed for source code.
 
 %files
-%dir %{_datadir}/fonts/TTF/hack
-%{_datadir}/fonts/TTF/hack/*.ttf
+%dir %{_datadir}/fonts/TTF/hack/
+%{_datadir}/fonts/TTF/hack/*
 
 %prep
-%setup -qn %{name}-%{version}
+%setup -qn %{name}
 
 %build
 #
 
 %install
 mkdir -p %{buildroot}%{_datadir}/fonts/TTF/hack
-cp * %{buildroot}%{_datadir}/fonts/TTF/hack/*.ttf
+cp * %{buildroot}%{_datadir}/fonts/TTF/hack/
 
